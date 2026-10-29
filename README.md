@@ -45,6 +45,27 @@ An end-to-end demonstration integrating **Python, Spark SQL, PySpark, Delta Lake
 
 Quarantine reason counts were: **15 duplicate shipment, 12 missing supplier, 10 invalid quantity, 9 invalid status, 8 invalid unit cost, 6 invalid date**. These are deliberately injected synthetic errors, not measured enterprise data-quality rates. Gold *modeled inventory value* is quantity × synthetic unit cost, **not** booked revenue or financial reporting.
 
+### Additional release screenshots — October 29, 2026
+
+These screenshots show the observed results of a synthetic-data reference implementation, not a production deployment.
+
+#### Successful managed job timeline
+![Databricks managed job execution](docs/evidence/06-managed-job-timeline.png)
+
+#### Unity Catalog table-level lineage
+![Unity Catalog lineage](docs/evidence/07-unity-catalog-lineage.png)
+
+#### Docker and Gradio milestone
+![Docker and Gradio validation](docs/evidence/08-docker-gradio-validation.png)
+
+#### Gradio data quality metrics
+![Gradio quality metrics](docs/evidence/09-gradio-validation.png)
+
+#### Read-only data quality control tower
+![Gradio control tower](docs/evidence/10-quality-control-tower.png)
+
+> The dashboard reads downloaded CSV snapshots, not a live Databricks connection. Exported files do not inherit Unity Catalog permissions.
+
 ## Actual engineering evidence
 
 ### 1 · Delta lineage: Bronze → Silver → Gold
