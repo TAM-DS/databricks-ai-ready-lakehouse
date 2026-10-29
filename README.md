@@ -7,7 +7,7 @@ An end-to-end demonstration integrating **Python, Spark SQL, PySpark, Delta Lake
 
 **Build it. Secure it. Test it. Prove it.**
 
-> Ready to publish as a separate public GitHub repository? Follow [`PUBLISH.md`](PUBLISH.md).
+> **Published reference implementation.** The notebook and local interfaces are independently reproducible; see the measured evidence below and [`PUBLISH.md`](PUBLISH.md) for release workflow notes.
 
 ![System architecture](docs/architecture.svg)
 
