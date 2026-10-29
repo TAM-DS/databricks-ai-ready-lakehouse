@@ -1,0 +1,15 @@
+services:
+  quality-portal:
+    build: .
+    ports:
+      - "127.0.0.1:7860:7860"
+    volumes:
+      - ./data:/app/data:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      - GRADIO_ANALYTICS_ENABLED=False
+    restart: "no"

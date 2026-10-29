@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">AI-Ready Databricks Lakehouse — trusted data flow</title>
+<desc id="desc">Synthetic records into Databricks Delta Bronze, Silver, Quarantine and Gold, governed by Unity Catalog; manually exported Gold and quarantine counts feed an offline Gradio, Docker and MCP read-only viewer.</desc>
+<rect width="1200" height="720" rx="24" fill="#091422"/>
+<text x="54" y="65" font-family="Arial,sans-serif" font-size="34" font-weight="bold" fill="#edf5ff">AI-Ready Data Platform</text>
+<text x="54" y="96" font-family="Arial,sans-serif" font-size="17" fill="#9dacc3">Cloud execution → verified data → bounded local evidence</text>
+<rect x="45" y="133" width="1110" height="290" rx="20" fill="#10243b" stroke="#2e5775" stroke-width="2"/>
+<text x="72" y="166" font-family="Arial,sans-serif" font-weight="bold" font-size="20" fill="#8fc6fa">DATABRICKS • SERVERLESS SPARK / SQL • DELTA LAKE</text>
+<rect x="70" y="201" width="186" height="106" rx="12" fill="#1d3854" stroke="#79bdf6"/>
+<text x="163" y="234" fill="#ffffff" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="20">Synthetic</text>
+<text x="163" y="262" fill="#d0e3f6" text-anchor="middle" font-family="Arial,sans-serif" font-size="17">Shipments</text>
+<text x="163" y="290" fill="#a6bdcf" text-anchor="middle" font-family="Arial,sans-serif" font-size="14">1,260 events</text>
+<rect x="306" y="201" width="186" height="106" rx="12" fill="#25425e" stroke="#79bdf6"/>
+<text x="399" y="244" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold">BRONZE</text>
+<text x="399" y="280" fill="#a5bdd6" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">Raw Delta records</text>
+<rect x="542" y="201" width="186" height="106" rx="12" fill="#254e58" stroke="#53d7bf"/>
+<text x="635" y="244" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold">SILVER</text>
+<text x="635" y="280" fill="#b5e2d8" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">1,200 accepted</text>
+<rect x="778" y="201" width="186" height="106" rx="12" fill="#255552" stroke="#70e1b2"/>
+<text x="871" y="244" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold">GOLD</text>
+<text x="871" y="280" fill="#c2f1de" text-anchor="middle" font-family="Arial,sans-serif" font-size="15">16 segments</text>
+<g stroke="#90acc6" stroke-width="4" fill="none"><path d="M256 254 H306"/><path d="M492 254 H542"/><path d="M728 254 H778"/></g>
+<g fill="#90acc6"><path d="M298 246 L310 254 L298 262Z"/><path d="M534 246 L546 254 L534 262Z"/><path d="M770 246 L782 254 L770 262Z"/></g>
+<path d="M635 306 V340" stroke="#ecb665" stroke-width="3"/>
+<path d="M627 333 L635 345 L643 333" fill="none" stroke="#ecb665" stroke-width="3"/>
+<rect x="537" y="344" width="196" height="50" rx="10" fill="#5c3d28" stroke="#ecb665"/>
+<text x="635" y="367" text-anchor="middle" fill="#fff2de" font-family="Arial,sans-serif" font-size="16" font-weight="bold">QUARANTINE</text>
+<text x="635" y="384" text-anchor="middle" fill="#f5cea3" font-family="Arial,sans-serif" font-size="13">60 rejected • 6 reasons</text>
+<text x="76" y="399" font-family="Arial,sans-serif" font-size="15" fill="#a0bddb">Unity Catalog: actual table lineage observed • fine-grained access not tested</text>
+<rect x="45" y="445" width="1110" height="225" rx="20" fill="#162535" stroke="#4b6275" stroke-width="2"/>
+<text x="72" y="480" font-family="Arial,sans-serif" font-weight="bold" font-size="19" fill="#f8cc85">OFFLINE EXPORT BOUNDARY</text>
+<text x="72" y="506" font-family="Arial,sans-serif" font-size="15" fill="#bac4d0">User downloads Gold + quarantine summary CSVs • no cloud credentials or live connection</text>
+<rect x="86" y="540" width="270" height="94" rx="13" fill="#273e59" stroke="#92b7e4"/>
+<text x="221" y="573" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="bold">GRADIO</text>
+<text x="221" y="604" text-anchor="middle" fill="#bbd5ed" font-family="Arial,sans-serif" font-size="15">Read-only control tower</text>
+<rect x="465" y="540" width="270" height="94" rx="13" fill="#273e59" stroke="#92b7e4"/>
+<text x="600" y="573" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="bold">DOCKER</text>
+<text x="600" y="604" text-anchor="middle" fill="#bbd5ed" font-family="Arial,sans-serif" font-size="15">Local container deployment</text>
+<rect x="844" y="540" width="270" height="94" rx="13" fill="#273e59" stroke="#92b7e4"/>
+<text x="979" y="573" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="bold">MCP • STDIO</text>
+<text x="979" y="604" text-anchor="middle" fill="#bbd5ed" font-family="Arial,sans-serif" font-size="15">3 fixed read-only tools</text>
+<text x="600" y="698" text-anchor="middle" fill="#8497ad" font-size="14" font-family="Arial,sans-serif">Design illustration • Actual outcomes documented in validation evidence</text>
+</svg>

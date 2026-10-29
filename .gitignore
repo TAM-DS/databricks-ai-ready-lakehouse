@@ -1,0 +1,21 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Local artifacts and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*.log
+.DS_Store
+
+# All downloaded Databricks extracts are local-only
+data/*.csv
