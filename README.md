@@ -3,6 +3,8 @@
 
 **From synthetic enterprise data to validated, traceable, AI-ready business evidence.**
 
+**What I built — and the proof it ran.** A working end-to-end governed lakehouse on Databricks: raw shipment data flows Bronze → Silver → Gold on **serverless compute**, bad records are quarantined with reasons, **Unity Catalog** shows table-level lineage, and the Gold data product is served through a read-only **Gradio** dashboard and a bounded **MCP** interface. It isn't a slide — it ran: a managed serverless job **succeeded in 1m 12s**, **1,260** records processed at a **95.24%** quality-rule pass rate, **6** local tests passing, **3** MCP tool calls succeeding. Full evidence — screenshots, numbers, and honest limits — below.
+
 An end-to-end demonstration integrating **Python, Spark SQL, PySpark, Delta Lake, Databricks serverless Jobs, Unity Catalog lineage, Docker, Gradio, and Model Context Protocol (MCP)**. This project turns quality rules into observable data products, then makes the results available through a bounded offline interface.
 
 **Build it. Secure it. Test it. Prove it.**
